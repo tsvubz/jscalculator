@@ -1,9 +1,8 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import { setupCalculator } from './calculator.js'
 
 document.querySelector('#app').innerHTML = `
+  <h1 class="title">Basic Calculator <i class="fas fa-calculator"></i></h1>
   <div class="calculator">
     <div class="display">
       <div class="prev-display"></div>
@@ -30,4 +29,4 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+setupCalculator(document.querySelector('#calculator'))
