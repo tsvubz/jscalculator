@@ -9,7 +9,7 @@ document.querySelector('#app').innerHTML = `
       <div class="prev-display"></div>
       <div class="curr-display"></div>
     </div>
-    <button class="clear">AC</button>
+    <button class="span-2 clear">AC</button>
     <button class="delete">DEL</button>
     <button class="operation">*</button>
     <button class="number">7</button>
@@ -26,7 +26,7 @@ document.querySelector('#app').innerHTML = `
     <button class="operation">-</button>
     <button class="number">0</button>
     <button class="number">.</button>
-    <button class="equal">=</button>
+    <button class="span-2 equal">=</button>
   </div>
 `
 
