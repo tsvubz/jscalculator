@@ -3,10 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -27,6 +23,10 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.title {
+  color: #004727;
 }
 
 .calculator {
@@ -79,9 +79,4 @@ body {
   color: #02894b;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-}
+
